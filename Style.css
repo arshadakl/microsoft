@@ -1,0 +1,271 @@
+.logo{
+    width: 6rem;
+}
+.user-icon{
+    width: 2rem;
+    display: flex;
+}
+/* .nav-link p{
+    margin: 0;
+} */
+/* .carousel-item img{
+    width: 500px;
+} */
+.display-cont-area1{
+    height: 300px;
+    position: relative;
+    right: 3rem;
+}
+.display-cont-area2{
+    height: 300px;
+    position: relative;
+    left: 8rem;
+}
+.display-cont-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .display-cont-block1 button{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #0067b8;
+} */
+.F-btn{
+    width: auto;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #0067b8;
+}
+.F-btn:hover{
+    background-color: #055694;
+    transition: all 0.3s ease;
+}
+.S-btn{
+    /* width: 7rem; */
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    /* background-color: none; */
+    background: none;
+}
+.aro{
+    font-size: 25px;
+    margin: 0;
+    height: 0;
+    position: relative;
+    top: 0.2rem;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+.S-btn:hover .aro{
+    left: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.img-sm-m{
+    display: none;
+}
+.img-lg-m{
+    display: block;
+}
+.sm-disc{
+    display: none;
+}
+.h2-top-space{
+    padding-top: 0rem;
+}
+.test{
+    /* background-color: red; */
+    width: 100%;
+    height: 300px;
+}
+.aroLeft{
+    position: relative;
+    left: 1.5rem;
+    bottom: 6rem;
+    height: 50%;
+}
+.aro-right{
+    position: relative;
+    right: 1.5rem;
+    bottom: 6rem;
+    height: 50%;
+}
+.row-display img{
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+.row-displays{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+.row-displays a{
+    text-decoration: underline ;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #055694;
+}
+
+.card-link-btn{
+    border: none;
+    background: none;
+    text-decoration: underline ;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #055694;
+    cursor: pointer;
+}
+.aro-card{
+    font-weight: 400;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+}
+.card-link-btn:hover{
+    left: 0.5rem;
+}
+.card-link-btn:hover span{
+    left: 1rem;
+    text-decoration: none;
+}
+.pc-display-area{
+    height: 100%;
+    background-color: red;
+    background-image: url(img/pc-di-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pc-dis-card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+}
+.pc-dis-btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #0a78cb;
+    border: none;
+    color: #fff;
+    border-radius: 2px ;
+}
+.pc-dis-card-title{
+    font-size: 35px;
+    font-weight: 500;
+}
+.footer-txt p{
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer-txt p:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+/* .pc-img-1{
+} */
+.pc-img-2{
+    display: none;
+}
+.pc-dis-sm{
+    display: none;
+}
+.media-area img{
+    width: 30px;
+}
+.footer-area{
+    background-color: #e7e7e7;
+}
+.form-area{
+    width: 50%;
+}
+.submit-btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #0a78cb;
+    border: none;
+    color: #fff;
+    border-radius: 5px ;
+}
+#contact-error{
+    text-align: center;
+    color: red;
+    transition: all 0.5s ease-in-out;
+}
+.stic-btn button{
+    width: 7rem;
+    height: 3rem;
+    background-color: #055694;
+    color: #fff;
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .h2-top-space{
+        padding-top: 5rem;
+    }
+    .pc-dis-card-title{
+        font-size: 25px;
+    }
+    .pc-dis-card-dis{
+        font-size: 13px;
+    }
+
+    .pc-dis-btn{
+        font-size: 10px;
+        ;
+    }
+}
+@media screen and (max-width:840px) {
+    .display-cont-block1,.display-cont-block2{
+        display: none;
+    }
+    .img-sm-m{
+        display: block;
+    }
+    .img-lg-m{
+        display: none;
+    }
+    .sm-disc{
+        display: block;
+    }
+    .aroLeft{
+        position: relative;
+        left: 1.5rem;
+        bottom: 6rem;
+        height: 30%;
+    }
+    .aro-right{
+        position: relative;
+        right: 1.5rem;
+        bottom: 6rem;
+        height: 30%;
+    }
+}
+@media screen and (max-width:768px) {
+    .pc-dis-card{
+        display: none;
+    }
+    .pc-img-1{
+        display: none;
+    }
+    .pc-img-2,.pc-dis-sm{
+        display: block;
+    }
+    
+}
+
+
